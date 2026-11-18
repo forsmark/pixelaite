@@ -1,0 +1,17 @@
+# Environments and dependencies
+.venv/
+__pycache__/
+node_modules/
+.env
+.env.*
+
+# Render output: rebuild it with the render commands
+assets/**/iterations/
+*.png
+*.gif
+*.webp
+*.jpg
+*.aseprite
+
+# Example images for the README
+!docs/img/*

@@ -1,0 +1,11 @@
+SEES: A small, tilted orange shape with a green patch and a white bottom that vaguely resembles a creature but lacks a clear cat silhouette.
+
+KEEP:
+- Use of the specified color palette.
+- The white chest/muzzle area.
+- The green color used for the eye.
+
+GOALS:
+1. Fix the silhouette and orientation: The cat must be sitting upright, facing right, and must respect the 1px margin requirement to avoid being cut off.
+2. Define the anatomy: The sprite needs a clear head with pointed ears, a body with tabby stripes, and a tail curling around the feet to be recognizable as a cat.
+3. Correct the composition: The sprite is currently rotated/tilted and lacks structure; it needs to be a cohesive character rather than a diagonal cluster of pixels.

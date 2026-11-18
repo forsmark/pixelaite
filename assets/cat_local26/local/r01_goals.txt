@@ -1,0 +1,11 @@
+SEES: A small, tilted orange shape with a green patch and a white bottom, lacking clear cat anatomy or orientation.
+
+KEEP:
+- Use of the specified palette (mostly).
+- The presence of a white area (intended muzzle/chest).
+- The green color (intended eye).
+
+GOALS:
+1. **Establish Anatomy and Orientation:** Reorient the sprite so the cat is sitting upright, facing right, with a clear head, body, and tail curling around the feet.
+2. **Fix Composition and Margins:** Move the subject away from the edges to respect the 1px margin and prevent the sprite from looking "cut off" or tilted.
+3. **Define Features and Details:** Use the "dk" and "mid" colors to create distinct tabby stripes on the back and clearly define the pointed ears and eye.

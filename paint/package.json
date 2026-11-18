@@ -1,0 +1,9 @@
+{
+  "name": "pixelaite-paint",
+  "private": true,
+  "description": "Watercolor paintings as code, rendered with p5.brush",
+  "type": "commonjs",
+  "dependencies": {
+    "p5.brush": "^3.0.0"
+  }
+}

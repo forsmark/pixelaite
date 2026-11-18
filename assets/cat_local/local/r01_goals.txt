@@ -1,0 +1,6 @@
+SEES: A small, orange tabby cat is sitting and facing right, with its tail wrapped around its front paws, rendered in a warm, cozy style suitable for a game sprite.
+KEEP: The overall orange tabby shape, the side view facing right, the tail wrapping around the front feet, the visible eye, the white muzzle/chest, and the use of the specified palette colors.
+GOALS:
+1. Ensure the cat clearly reads as an orange tabby at 1x scale, maintaining the intended cozy RPG aesthetic.
+2. Accurately depict the requested features: pointed ears, a visible eye, a white muzzle/chest, and 2-3 distinct darker tabby stripes on the back.
+3. Refine the silhouette and internal details to better adhere to the 1px margin constraints while maintaining a cohesive, game-ready sprite appearance.

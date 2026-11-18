@@ -1,0 +1,11 @@
+SEES: A small, chunky orange cat sprite facing right, though its anatomy appears distorted and it lacks several key features.
+
+KEEP:
+- The orange color palette (dk, mid, lt).
+- The side-facing orientation.
+- The dark outline.
+
+GOALS:
+1. Fix the anatomy and pose: The cat should be sitting with its tail curling around its feet, rather than appearing as a floating, tilted blob.
+2. Add required details: Include the pointed ears, the dark tabby stripes on the back, and the white muzzle/chest as specified in the brief.
+3. Correct the eye and face: The eye is currently a single pink pixel; it needs to be the specified green color and placed correctly within a white muzzle area.

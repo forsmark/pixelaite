@@ -1,0 +1,5 @@
+{"role": "draw", "seconds": 21.8, "prompt_tokens": 1055, "completion_tokens": 1658, "model": "gemma-4-E4B-it-GGUF-Q4_K_M"}
+{"role": "draw", "seconds": 21.0, "prompt_tokens": 2747, "completion_tokens": 1690, "model": "gemma-4-E4B-it-GGUF-Q4_K_M"}
+{"role": "judge", "seconds": 5.9, "prompt_tokens": 530, "completion_tokens": 331, "model": "gemma-4-E4B-it-GGUF-Q4_K_M"}
+{"role": "judge", "seconds": 8.6, "prompt_tokens": 530, "completion_tokens": 521, "model": "gemma-4-E4B-it-GGUF-Q4_K_M"}
+{"role": "goals", "seconds": 3.4, "prompt_tokens": 573, "completion_tokens": 177, "model": "gemma-4-E4B-it-GGUF-Q4_K_M"}

@@ -1,0 +1,11 @@
+SEES: A small, chunky orange cat silhouette facing right, appearing more like a generic blobby creature than a detailed tabby.
+
+KEEP:
+- The orange-based color palette.
+- The side-facing orientation.
+- The use of a dark outline.
+
+GOALS:
+1. **Anatomical Clarity:** Redraw the shape to clearly define a sitting cat with pointed ears, a distinct head, a body, and a tail curling around the feet.
+2. **Pattern & Detail:** Incorporate the requested tabby stripes on the back and the white muzzle/chest to make it read as a specific cat breed.
+3. **Margin & Composition:** Fix the layout to respect the 1px margin (the current sprite touches the bottom edge) and ensure the subject is centered and legible within the 20x20 canvas.

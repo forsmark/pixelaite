@@ -1,0 +1,29 @@
+checks:
+  Does the silhouette clearly read as a cat?
+  Is the cat in a sitting pose?
+  Is the cat facing right?
+  Is the tail curled around the front feet?
+  Are the pointed ears and eye clearly visible?
+  Does the cat have a white muzzle and chest?
+  Are there 2 or 3 dark tabby stripes on the back?
+  Does the lighting appear to come from the top-left?
+
+=== round 1 ===
+  c1: score 4.0/8 vs best - -> NEW BEST
+  c2: score 3.0/8 vs best 4.0 -> kept current
+  c3: score 4.0/8 vs best 4.0 -> kept current
+  goals: SEES: A small, chunky orange shape that resembles a stylized animal silhouette but lacks the defining features of a cat. |  | KEEP: | - The orange color palette. | - The use of a dark outline. | - The 20x20 canvas constraints. |  | GOALS: | 1. **Establish Cat Anatomy:** Redraw the shape to clearly show a sitting posture with pointed ears, a distinct head, and a tail curling around the feet to meet
+
+=== round 2 ===
+  c1: score 4.0/8 vs best 4.0 -> kept current
+  c2: score 4.0/8 vs best 4.0 -> kept current
+  c3: score 4.0/8 vs best 4.0 -> kept current
+  goals: SEES: A small, chunky orange cat silhouette facing right, appearing more like a generic blobby creature than a detailed tabby. |  | KEEP: | - The orange-based color palette. | - The side-facing orientation. | - The use of a dark outline. |  | GOALS: | 1. **Anatomical Clarity:** Redraw the shape to clearly define a sitting cat with pointed ears, a distinct head, a body, and a tail curling around th
+
+=== round 3 ===
+  c1: score 3.0/8 vs best 4.0 -> kept current
+  c2: score 4.0/8 vs best 4.0 -> kept current
+  c3: score 3.0/8 vs best 4.0 -> kept current
+  goals: SEES: A small, chunky orange cat sprite facing right, though its anatomy appears distorted and it lacks several key features. |  | KEEP: | - The orange color palette (dk, mid, lt). | - The side-facing orientation. | - The dark outline. |  | GOALS: | 1. Fix the anatomy and pose: The cat should be sitting with its tail curling around its feet, rather than appearing as a floating, tilted blob. | 2. A
+
+calls 30, prompt tokens 22,832, completion tokens 8,469, model time 168 s

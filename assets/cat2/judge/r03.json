@@ -1,0 +1,15 @@
+{
+ "semi1": [
+  "cat2",
+  "cat2_b"
+ ],
+ "semi2": [
+  "cat2_a",
+  "cat2_c"
+ ],
+ "final": [
+  "cat2_b",
+  "cat2_a"
+ ],
+ "winner": "cat2_b"
+}

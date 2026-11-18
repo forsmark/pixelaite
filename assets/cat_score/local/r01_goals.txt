@@ -1,0 +1,11 @@
+SEES: A small, chunky orange shape that resembles a stylized animal silhouette but lacks the defining features of a cat.
+
+KEEP:
+- The orange color palette.
+- The use of a dark outline.
+- The 20x20 canvas constraints.
+
+GOALS:
+1. **Establish Cat Anatomy:** Redraw the shape to clearly show a sitting posture with pointed ears, a distinct head, and a tail curling around the feet to meet the brief.
+2. **Add Required Details:** Incorporate the specific requested features: a white muzzle/chest, a visible green eye, and dark tabby stripes on the back.
+3. **Fix Orientation and Composition:** Ensure the cat is facing RIGHT and fits within the 1px margin constraints to avoid touching the edges of the canvas.

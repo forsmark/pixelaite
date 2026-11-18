@@ -1,0 +1,11 @@
+SEES: A chunky, orange tabby cat sitting in profile, though its shape is heavily distorted and lacks clear anatomical structure.
+
+KEEP:
+- The orange and white color scheme.
+- The green eye color.
+- The use of the specified palette.
+
+GOALS:
+1. Fix the silhouette and proportions: The cat currently looks like an irregular blob; it needs a clear head, a sitting body, and distinct pointed ears to read as a cat.
+2. Respect the margin and canvas constraints: The sprite is touching the right and bottom edges of the canvas, violating the 1px margin rule.
+3. Implement the tail and stripes: The tail is missing (it should curl around the feet), and the tabby stripes are not clearly defined on the back.

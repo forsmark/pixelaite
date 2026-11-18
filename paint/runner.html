@@ -1,0 +1,54 @@
+<!doctype html>
+<meta charset="utf-8">
+<body style="margin:0;background:#888">
+<script type="module">
+  // Renders one paint script with p5.brush (standalone build) and exposes one PNG per frame.
+  // URL: runner.html?script=/assets/<name>/paint.js
+  import * as brush from "./node_modules/p5.brush/dist/brush.esm.js"
+  const params = new URLSearchParams(location.search)
+
+  // FNV-1a hash: a stable 31-bit seed from a string.
+  function hash(s) {
+    let h = 2166136261
+    for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) }
+    return (h >>> 0) % 2147483647
+  }
+
+  try {
+    const mod = await import(params.get("script") + "?t=" + Date.now())
+    const meta = Object.assign({ w: 512, h: 512, seed: 1, paper: "#f4efe2", scale: null, frames: 1, duration: 120 },
+                               mod.meta || {})
+    const W = meta.w, H = meta.h, N = meta.frames
+    brush.createCanvas(W, H, { parent: document.body, pixelDensity: 1 })
+    brush.scaleBrushes(meta.scale ?? W / 200)
+    brush.angleMode(brush.DEGREES)
+    const canvas = document.querySelector("canvas")
+    window.__frames = []
+    for (let f = 0; f < N; f++) {
+      const ctx = {
+        frame: f, frames: N, t: N > 1 ? f / N : 0,          // t runs 0..1 and loops
+        // part(name): reseed before an element, so it keeps its look when other elements change.
+        // part(name, f) gives a different seed per frame (watercolor "boil").
+        part(name, variant = "") {
+          const s = hash(meta.seed + ":" + name + ":" + variant)
+          brush.seed(s); brush.noiseSeed(s)
+        },
+      }
+      brush.seed(meta.seed); brush.noiseSeed(meta.seed)
+      brush.clear(meta.paper)
+      brush.push()
+      brush.translate(-W / 2, -H / 2)
+      await mod.default(brush, W, H, ctx)
+      brush.pop()
+      brush.render()
+      await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)))
+      window.__frames.push(canvas.toDataURL("image/png"))
+    }
+    window.__durations = Array.isArray(meta.duration) ? meta.duration : Array(N).fill(meta.duration)
+    window.__brushes = brush.box()
+    window.__fields = brush.listFields()
+  } catch (e) {
+    window.__error = String(e && e.stack || e)
+  }
+  window.__done = true
+</script>
